@@ -1,5 +1,5 @@
 from flask import Flask
-from hello_world.hello_world import hello_world
+from hello_world.controller.hello_world import hello_world
 
 application = Flask(__name__)
 
